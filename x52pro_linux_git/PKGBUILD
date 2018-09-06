@@ -1,0 +1,36 @@
+# Maintainer : Shawn Cresante <shawn at cresante dot com>
+
+_pkgname=x52pro-linux
+pkgname="${_pkgname}-git"
+pkgver=155.1d51429
+pkgrel=1
+pkgdesc="Saitek X52 Pro driver"
+arch=('x86_64')
+url="https://github.com/nirenjan/x52pro-linux"
+license=('GPL')
+options=('!libtool')
+depends=('libusb')
+makedepends=('git')
+source=("${_pkgname}::git+${url}.git")
+md5sums=('SKIP')
+sha256sums=('SKIP')
+
+pkgver() {
+  cd ${_pkgname}
+  echo $(git rev-list --count HEAD).$(git rev-parse --short HEAD)
+}
+
+build() {
+#  cd $srcdir/$pkgname
+  cd ${_pkgname}
+  ./autogen.sh
+  ./configure --prefix=/usr
+  make PREFIX=/usr
+}
+
+package() {
+#  cd $srcdir/$pkgname
+  cd ${_pkgname}
+  make PREFIX=/usr DESTDIR="${pkgdir}" install
+}
+

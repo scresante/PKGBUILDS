@@ -1,0 +1,21 @@
+# pack-refs with: peeled fully-peeled sorted 
+ef509eb7967addbc362998df58df55c1cb5b8250 refs/heads/feature/alt_lookup_engine
+1beecfcc009cebacaba09b0ca11dac8024898075 refs/heads/feature/daemon
+b07e6e6a8b36fd12a9836cf9dbc4ae436f64f5e3 refs/heads/feature/non-recursive-automake
+a733d4420c9046ce7795575099c5f14471b6443f refs/heads/feature/test-new-mem-api
+e3f9ceb4eb064bdfea49291514cdb34328a68c6a refs/heads/gh-pages
+1d51429f10829578b10d9b5daf1be34a25e70b26 refs/heads/master
+ae97d58bd5039f7b15cceae7ba2567d5b5728549 refs/pull/10/head
+44d46b70e02ab82df685537d324fc7be21ac7db1 refs/pull/13/head
+e54dfd94d253141da78a55f2227eb8c5a8b9fdc2 refs/pull/3/head
+c87e785a18e24bb0909758a32ab5b8e3439e4b82 refs/pull/7/head
+b0127943e02079a49b02f4b4a5dadd1c3b998e0c refs/tags/v0.0.1
+^2fd5f29adefcfe8a1b380c1e6601eef579c5a92d
+e7aeca6add393c07523353cbc00cba380cd1307f refs/tags/v0.0.2
+^0ad08ac623778ffa2608e30bd4953b5d5acd6f22
+46198d16f6ad47ae300e1550b845ac3396d1a06a refs/tags/v0.1.0
+^090fbe6a3b6d80dc74cb444179a9958f6e2beb9f
+8933a478a420713cb9825fcaaed0146af85f3c46 refs/tags/v0.1.1
+^710ef00109658981599d760aecde5e9e8e4cb084
+1b9e19b15efb779cedf87c6ebc57f78845aecd9b refs/tags/v0.1.2
+^82fa0cea282ddc681572ffd9fc7d8c923762a18d
